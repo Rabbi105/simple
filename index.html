@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Name" required autofocus>
+        <br>
+        <label >Gender :</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br>
+        <label>Education :</label>
+        <br>
+        
+        <div class="edu">
+            <input type="checkbox" id="ssc" value="SSC">
+            <label for="ssc">SSC</label>
+            <br>
+            <input type="checkbox" id="hsc" value="HSC">
+            <label for="hsc">HSC</label>
+            <br>
+            <input type="checkbox" id="bsc" value="B.Sc">
+            <label for="bsc">B.Sc</label>
+            <br>
+            <input type="checkbox" id="msc" value="M.Sc">
+            <label for="msc">M.Sc</label>
+        </div>
+        <label>Mobile :</label>
+        <input type="number" placeholder="01xxx xxx xxx" size="11" maxlength="11" required>
+        <br>
+        <input type="submit" id="btn" value="submit">
+    </form>
+</body>
+</html>
